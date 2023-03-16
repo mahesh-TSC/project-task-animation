@@ -518,7 +518,7 @@ input[type="email"] {
         flex-direction: column;
         position: fixed;
         width: 48%;
-        right: -100%;
+        left: 196px;
         background-color: #0000009e;
         position: absolute;
         z-index: 3;
@@ -535,7 +535,7 @@ input[type="email"] {
         color: blue;
     }
     #check:checked ~ ul{
-        right: 0%;
+        left: 11px;
         margin-top: 14%;
         width: 100%;
         transition: 2s;
